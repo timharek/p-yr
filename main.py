@@ -50,7 +50,7 @@ symbols_emojis = { # https://listemoji.com/
 if len(sys.argv) > 1:
     weather = Yr(location_name=str(sys.argv[1]))
 else:
-    weather = Yr(location_name='Norway/VestLand/Bergen/Bergen')
+    weather = Yr(location_name='Norway/Vestland/Bergen/Bergen')
     # weather = Yr(location_xyz=(60.388068, 5.331854))
 now = weather.now()
 
