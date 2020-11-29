@@ -1,0 +1,2 @@
+emojis~=0.6.0
+python-yr~=1.4.7post2
