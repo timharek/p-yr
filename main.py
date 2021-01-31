@@ -1,5 +1,4 @@
 import sys
-
 import emojis
 from yr.libyr import Yr
 
