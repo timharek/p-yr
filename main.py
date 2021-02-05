@@ -1,9 +1,12 @@
 import sys
+import os
 import json
 import emojis
 from yr.libyr import Yr
 
-with open('emojis.json') as file:
+cwd = os.path.dirname(os.path.realpath(__file__))
+
+with open(cwd + '/emojis.json') as file:
     symbols_emojis = json.load(file)
 
 if len(sys.argv) > 1:
