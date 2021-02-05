@@ -7,7 +7,7 @@ Update `main.py` with your specifc position, or specifiy when running the script
 python3 main.py python3 main.py 'Norge/Rogaland/Haugesund/Haugesund'
 ```
 ### Output
-```sh
+```
 Weather in Norge, Rogaland, Haugesund
 ☀️ · -7°C · 3.4m/s · 0mm
 ```
