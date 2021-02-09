@@ -7,7 +7,7 @@ Simple Python script that gets the local weather.
 Update `main.py` with your specifc position, or specifiy when running the script
 
 ```sh
-python3 main.py python3 main.py 'Norge/Rogaland/Haugesund/Haugesund'
+python3 main.py 'Norge/Rogaland/Haugesund/Haugesund'
 ```
 
 ### Output
