@@ -10,7 +10,8 @@ with open(cwd + '/emojis.json') as file:
     symbols_emojis = json.load(file)
 
 if len(sys.argv) > 1:
-    weather = Yr(location_name=str(sys.argv[1]))
+    city = sys.argv[1].split('/')[2]
+    weather = Yr(location_name=str(sys.argv[1] + '/' + city))
 else:
     weather = Yr(location_name='Norway/Vestland/Bergen/Bergen')
 now = weather.now()
