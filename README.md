@@ -1,4 +1,4 @@
-# <img src="p-yr.svg" width="50"> p-yr
+# <img src="https://timharek.no/assets/img/projects/p-yr.svg" width="50"> p-yr
 
 Simple Python script that gets the local weather.
 
