@@ -1,6 +1,6 @@
 # <img src="https://timharek.no/assets/img/projects/p-yr.svg" width="50"> p-yr
 
-Simple Python script that gets the local weather.
+Simple Python script that gets the weather data.
 
 ## Usage
 
